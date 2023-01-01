@@ -13,16 +13,27 @@ vi /etc/hosts
 v5.1.11版本安装脚本:
 curl -fsSL https://github.com/Steady-WJ/cdnfly-kaixin/raw/main/master.sh -o master.sh && chmod +x master.sh && ./master.sh --es-dir /home/es
 
-新v5.1.13版本安装脚本:
-
+v5.1.13版本安装脚本:
 curl -fsSL https://github.com/Steady-WJ/cdnfly-kaixin/raw/main/cdnfly/v5.1.13/master/master.sh -o master.sh && chmod +x master.sh && ./master.sh --es-dir /home/es
 
-3.被控
-v5.1.15版本安装脚本:
+3.agent被控安装
+
+v5.1.11版本被控
+
+v5.1.15被控版本安装脚本:
 curl -fsSL -m 5 https://github.com/Steady-WJ/cdnfly-kaixin/raw/main/agent/agent.sh -o agent.sh || curl -m 5 https://github.com/Steady-WJ/cdnfly-kaixin/raw/main/agent/agent.sh -o agent.sh  && chmod +x agent.sh && ./agent.sh --master-ver v5.1.11 --master-ip ip --es-ip ip --es-pwd passwd
 
-新v5.1.16版本安装脚本:
+新v5.1.16被控版本安装脚本:
 curl -fsSL -m 5 https://github.com/Steady-WJ/cdnfly-kaixin/raw/main/cdnfly/v5.1.13/agent/agent.sh -o agent.sh || curl -m 5 https://github.com/Steady-WJ/cdnfly-kaixin/raw/main/cdnfly/v5.1.13/agent/agent.sh -o agent.sh  && chmod +x agent.sh && ./agent.sh --master-ver v5.1.11 --master-ip ip --es-ip ip --es-pwd passwd
+
+
+v5.1.13版本被控
+
+v5.1.15版本安装脚本:
+curl -fsSL -m 5 https://github.com/Steady-WJ/cdnfly-kaixin/raw/main/agent/agent.sh -o agent.sh || curl -m 5 https://github.com/Steady-WJ/cdnfly-kaixin/raw/main/agent/agent.sh -o agent.sh  && chmod +x agent.sh && ./agent.sh --master-ver v5.1.13 --master-ip ip --es-ip ip --es-pwd passwd
+
+新v5.1.16版本安装脚本:
+curl -fsSL -m 5 https://github.com/Steady-WJ/cdnfly-kaixin/raw/main/cdnfly/v5.1.13/agent/agent.sh -o agent.sh || curl -m 5 https://github.com/Steady-WJ/cdnfly-kaixin/raw/main/cdnfly/v5.1.13/agent/agent.sh -o agent.sh  && chmod +x agent.sh && ./agent.sh --master-ver v5.1.13 --master-ip ip --es-ip ip --es-pwd passwd
 
 4.
 已安装过官方版的开心方法：
@@ -40,9 +51,6 @@ supervisorctl -c /opt/cdnfly/master/conf/supervisord.conf reload
 修改为你自身安装节点,或使用默认的github节点安装
 /opt/cdnfly/master/panel/src/views/system/update/index.html
 
-感谢OK源码中国网提供，（https://vsok.net) 精品资源源码请去OK源码中国下载
-
-推荐服务器商；OVZH服务商，官网（https://ovzh.com） OVZH最近活动: https://reurl.cc/6Z1WWZ
 
 主控登录地址为: http://主控IP/
 管理员账号和密码： admin/cdnfly
