@@ -223,7 +223,7 @@ download "https://raw.githubusercontent.com/Steady-WJ/cdnfly-kaixin/main/cdnfly/
 
 tar xf $tar_gz_name
 rm -rf cdnfly
-mv $dir_name cdnfly
+mv $dir_name-$(get_sys_ver) cdnfly
 
 # 开始安装
 cd /opt/cdnfly/master
