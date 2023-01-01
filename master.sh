@@ -223,7 +223,7 @@ download "https://raw.githubusercontent.com/Steady-WJ/cdnfly-kaixin/main/cdnfly/
 
 tar xf $tar_gz_name
 rm -rf cdnfly
-mv cdnfly-master-v5.1.13-centos-7 cdnfly
+mv dir_name cdnfly
 
 # 开始安装
 cd /opt/cdnfly/master
