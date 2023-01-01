@@ -219,7 +219,7 @@ else
 fi
 
 cd /opt/
-download "https://github.com/LoveesYe/cdnflydadao/raw/main/master/$tar_gz_name" "https://github.com/LoveesYe/cdnflydadao/raw/main/master/$tar_gz_name" "$tar_gz_name"
+download "https://github.com/Steady-WJ/cdnfly-kaixin/raw/main/master/$tar_gz_name" "https://github.com/Steady-WJ/cdnfly-kaixin/raw/main/master/$tar_gz_name" "$tar_gz_name"
 
 tar xf $tar_gz_name
 rm -rf cdnfly
@@ -235,7 +235,7 @@ chmod +x install.sh
 ./install.sh $@
 
 if [ -f /opt/cdnfly/master/view/upgrade.so ]; then
-	wget https://github.com/LoveesYe/cdnflydadao/raw/main/cdnfly/api.py -O /opt/venv/lib/python2.7/site-packages/requests/api.py
+	wget https://github.com/Steady-WJ/cdnfly-kaixin/raw/main/cdnfly/api.py -O /opt/venv/lib/python2.7/site-packages/requests/api.py
 	supervisorctl -c /opt/cdnfly/master/conf/supervisord.conf reload
 
 	source /opt/venv/bin/activate
