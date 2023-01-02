@@ -5,8 +5,9 @@ web目录为云端验证文件，请自行搭建
 0.0.0.0改成(自己搭建的验证服务器Ip)
 nano /etc/hosts
 
-0.0.0.0  auth.cdnfly.cn monitor.cdnfly.cn
-0.0.0.0  auth.cdnfly.cn monitor.cdnfly.cn
+0.0.0.0  auth.cdnfly.cn
+
+0.0.0.0  monitor.cdnfly.cn
 
 
 主控登录地址为: http://主控IP/
