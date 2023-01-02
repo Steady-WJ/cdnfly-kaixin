@@ -7,6 +7,7 @@ vi /etc/hosts
 
 
 0.0.0.0  auth.cdnfly.cn
+
 0.0.0.0  monitor.cdnfly.cn
 
 
