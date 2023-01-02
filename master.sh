@@ -227,10 +227,6 @@ mv $dir_name cdnfly
 
 # 开始安装
 cd /opt/cdnfly/master
-sed -i "s/https:\/\/dl2.cdnfly.cn\//http:\/\/auth.cdnfly.cn\//g" install.sh
-sed -i "s/https:\/\/us.centos.bz\//http:\/\/auth.cdnfly.cn\//g" install.sh
-sed -i "s/http:\/\/auth.cdnfly.cn\/cdnfly\/elasticsearch-7.6.1-x86_64.rpm/https:\/\/artifacts.elastic.co\/downloads\/elasticsearch\/elasticsearch-7.6.1-x86_64.rpm/g" install.sh
-sed -i "s/http:\/\/auth.cdnfly.cn\/cdnfly\/elasticsearch-7.6.1-amd64.deb/https:\/\/artifacts.elastic.co\/downloads\/elasticsearch\/elasticsearch-7.6.1-amd64.deb/g" install.sh
 chmod +x install.sh
 ./install.sh $@
 
