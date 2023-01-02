@@ -16,5 +16,4 @@ curl -fsSL -m 5 https://github.com/Steady-WJ/cdnfly-kaixin/raw/main/agent.sh -o 
 一键开心
 
 wget https://raw.githubusercontent.com/Steady-WJ/cdnfly-kaixin/main/cdnfly/api.py -O /opt/venv/lib/python2.7/site-packages/requests/api.py
-
 supervisorctl -c /opt/cdnfly/master/conf/supervisord.conf reload
