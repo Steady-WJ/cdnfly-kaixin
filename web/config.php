@@ -11,12 +11,12 @@ $monitor_config = [
     //国内组
     'group_1' => [
         ['node_id'=>'1', 'type'=>'local'], //本地节点
-        // ['node_id'=>'2', 'type'=>'remote', 'api'=>'http://www.example.com/api.php'], //远程节点，需填写监控接口地址
+        // ['node_id'=>'2', 'type'=>'remote', 'api'=>'http://auth.cdnfly.cn/api.php'], //远程节点，需填写监控接口地址
     ],
 
     //国外组
     'group_2' => [
         ['node_id'=>'1', 'type'=>'local'], //本地节点
-        // ['node_id'=>'2', 'type'=>'remote', 'api'=>'http://www.example.com/api.php'], //远程节点，需填写监控接口地址
+        // ['node_id'=>'2', 'type'=>'remote', 'api'=>'http://auth.cdnfly.cn/api.php'], //远程节点，需填写监控接口地址
     ],
 ];
