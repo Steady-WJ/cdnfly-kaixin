@@ -11,9 +11,6 @@ nano /etc/hosts
 
 0.0.0.0  auth.cdnfly.cn
 
-0.0.0.0  monitor.cdnfly.cn
-
-
 主控登录地址为: http://主控IP/
 管理员账号和密码： wenjian/wenjian
 普通用户账号和密码： ceshi/ceshi
