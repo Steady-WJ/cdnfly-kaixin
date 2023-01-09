@@ -2,6 +2,10 @@
 仅支持CENTOS7
 web目录为云端验证文件，请自行搭建
 
+wget https://raw.githubusercontent.com/Steady-WJ/cdnfly-kaixin/main/web/web.tar.gz
+
+tar -zxvf web.tar.gz
+
 0.0.0.0改成(自己搭建的验证服务器Ip)
 nano /etc/hosts
 
