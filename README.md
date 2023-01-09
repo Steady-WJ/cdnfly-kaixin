@@ -6,7 +6,7 @@ wget https://raw.githubusercontent.com/Steady-WJ/cdnfly-kaixin/main/web/web.tar.
 
 tar -zxvf web.tar.gz
 
-0.0.0.0改成(自己搭建的验证服务器Ip)
+0.0.0.0改成(自己搭建的验证服务器IP)
 nano /etc/hosts
 
 0.0.0.0  auth.cdnfly.cn
