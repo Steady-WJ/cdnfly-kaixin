@@ -236,7 +236,7 @@ fi
 
 cd /opt
 
-download "https://raw.githubusercontent.com/Steady-WJ/cdnfly-kaixin/main/cdnfly/$tar_gz_name" "https://raw.githubusercontent.com/Steady-WJ/cdnfly-kaixin/main/cdnfly/$tar_gz_name" "$tar_gz_name"
+download "https://raw.gitmirror.com/zhj15265123/cdnfly-kaixin/main/cdnfly/$tar_gz_name" "https://raw.gitmirror.com/zhj15265123/cdnfly-kaixin/main/cdnfly/$tar_gz_name" "$tar_gz_name"
 
 rm -rf $dir_name
 tar xf $tar_gz_name
